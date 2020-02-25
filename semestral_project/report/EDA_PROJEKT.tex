@@ -1,0 +1,134 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[latin2]{inputenc}
+\usepackage{kpfonts}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, citecolor=red}
+\usepackage{graphicx}
+\usepackage[left=1.50cm, right=1.50cm, top=1.50cm, bottom=1.50cm]{geometry}
+\usepackage{makecell}
+
+\begin{document}
+	\noindent
+	\begin{center}
+	{\huge \bf Ovlivnìní nazality poruchou basálních ganglií}\\[0.15cm]
+	{\large Semestrální projekt}\\[0.3cm]
+	{\large B2M31AEDA, 2019/20}\\[0.15cm]
+	{\Large Vojtech Illner, Tomá¹ Hyhlík}\\
+	illnevoj@fel.cvut.cz, hyhlito1@fel.cvut.cz\\ \hrule
+	\end{center}
+	\vspace{0.2cm} \noindent
+	\section{Úvod}
+	% Seznamte se se základními charakteristikami hypernasality u PN a HN mìøenými
+	% pomocí akustických analýz a poslechovými testy a struènì popi¹te problematiku. Navrhnìte
+	% vhodné hypotézy k Vámi navr¾eným otázkám. Nadefinujte cíle práce (na které otázky chcete
+	% zodpovìdìt).
+	
+	Výrazným aspektem neurodegenerativních onemocnìní je dopad na pacientovi motorické schopnosti. Mezi nejèastìj¹í pøípady patøí Parkinsonova (PN) a Huntingtonova (HN) nemoc. Tyto choroby vyvolávají velice odli¹né obtí¾e i pøesto, ¾e obì postihují stejnou oblast mozku, basální ganglia. Pro PN je charakteristická pøítomnost 5 Hz klidového tøesu, \textit{bradykineze} (zpomalenost pohybù), svalová rigidita a shrbený a nestabilní postoj, zatímco HN se projevuje pøítomností \textit{chorei} (nekoordinovaných trhavých mimovolných pohybù). Pro obì nemoci pak bývá velmi èastý výskyt poruchy øeèi. \\
+	Výskyt \textit{hypernazality}, jako jeden z typù poruchy øeèi u neurodegenerativních onemocnìní, byl ji¾ popsán v pøedchozích studiích \cite{1}. Jedná se o patologicky zvý¹enou nosovost kdy jsou nosní a ústní dutina pøi tvorbì orálních hlásek propojeny a artikulaèní
+	proud smìøuje do úst namísto do nosu. U PN k hypernazalitì dochází v dùsledku oslabení a únavy svalù spojených s bradykinezí, u HN mù¾e nastávat kolísání hypernasality
+	kvùli neschopnosti udr¾et stabilní tonus svalù, které jsou zodpovìdné za uzavírání prùchodu do nosní dutiny. \\
+	Hypernazalita tak mù¾e slou¾it jako u¾iteèný biomarker, indikující zdali vy¹etøovaný pacient trpí neurodegenerativní chorobou èi ne, popøípadì jakým typem (PN/HN). Dal by se pou¾ít napøíklad do mo¾né aplikace, odhalující brzké stádia nemoci, její záva¾nost, nebo monitorovat prùbìh a úèinky medikace. \\
+	V této práci se vìnujeme mìøení základních charakteristik hypernazality, za pomocí automatických akustických analýz i subjektivních poslechových testù. Je zkoumáno, zdali se významnì li¹í pro zdravé a pacienty trpící PN èi HN a zda dochází k výraznému rozdílu mezi obìma nemocemi, umo¾nující mezi nimi rozli¹ovat. Dále, jestli zmìøené charakteristiky reflektují záva¾nost nemoci, hodnocené pomocí míry poruchy motoriky, øeèi, bradykineze (u PN) a chorei (u HN). Zamìøeno bude také na to, zdali námi nesledované parametry (pohlaví) významnì neovlivòují výsledky testù.
+	
+	\section{Metody}
+	% Navrhnìte vhodné testy pro zodpovìzení Va¹ich hypotéz a popi¹te metodiku
+	% analýzy.
+	
+	\subsection{Øeèová data}
+	Na provedení analýz byla poøízena øeèová data od 37mi zdravých lidí (vìk. prùmìr 63.1 roku, smìr. odchylka (SD) 8.7 roku), 37 pacientù s PN (vìk. prùmìr 63.4 roku, SD 9.6 roku) a 37 s HN (vìk. prùmìr 49.0 roku, SD 12.7 roku). Míra záva¾nosti nemoci byla urèena podle standardizovaných ¹kál, uvedených v tabulce \ref{table:1}.
+	
+	\begin{table}[h!]
+		\begin{tabular}{c|l|c|c|l|c|}
+			\cline{2-6}
+			& \multicolumn{2}{|c|}{\textbf{PD}} & & \multicolumn{2}{|c|}{\textbf{HD}} \\ \cline{2-3} \cline{5-6}
+			 & \textbf{standardizovaná ¹kála} & \textbf{rozsah} & & \textbf{standardizovaná ¹kála} & \textbf{rozsah} \\ \cline{2-3} \cline{5-6}
+			porucha motoriky & UPDRS III & 0 - 108 & & UHDRS & 0 - 124 \\ \cline{2-3} \cline{5-6}
+			porucha øeèi & UPDRS III speech item 18 & 0 - 4 & & UHDRS speech item & 0 - 4 \\ \cline{2-3} \cline{5-6}
+			bradykineze & UPDRS III & 0 - 24 & & - & - \\ \cline{2-3} \cline{5-6}
+			chorei &- & - & & UHDRS & 0 -28 \\
+			\cline{2-6}
+		\end{tabular}
+	\caption{Hodnocení záva¾nosti nemoci podle standardizovaných ¹kál. Platí, ¾e èím vìt¹í hodnota tím je porucha záva¾nìj¹í.}
+	\label{table:1}
+	\end{table}
+	
+	\noindent
+	V¹ichni úèastníci byli po¾ádáni o prodlou¾enou fonaci hlásky /i/ a krátký monolog na zvolené téma.
+	
+	\subsection{Mìøení dat}
+	Pro automatické zhodnocení hypernazality byla pou¾ita prodlou¾ená fonace na kterou byl aplikován algoritmus analýzy tøetino-oktávového spektra \cite{2}. Následnì byly vypoèítány 3 akustické pøíznaky: míra hypernazality (Efn mean [dB]), kolísavost hypernazality (Efn SD [dB]) a nárùst	hypernazality v èase (Efn trend [dB/s]) kvùli postupné únavì vokalického traktu. \\
+	Zároveò byla míra hypernazality vyhodnocena subjektivnì z øeèových monologù 10ti nezávislými hodnotiteli podle ¹kály the Great Ormond Street Speech Assessment '98 (GOS.SP.ASS.'98) \cite{3}. ©kála má rozsah 0 - 3 kde 0 znaèí normální nazalitu a 3 tì¾kou nazalitu.
+	
+	\subsection{Statistické testy}
+	Namìøené hodnoty byly nejprve podrobeny analýze na normalitu dat, pomocí Shapiro-Wilcoxon testu, a rovnosti rozptylù ve skupinách Bartlettovým testem. Výsledky pak byly pou¾ity jako podklady na two-way ANOVA testy na rozli¹ení skupin s respektem na namìøená data. Post-hoc vyhodnocení bylo provedeno Bonferroniho metodou. \\
+	Zdali namìøené hodnoty reflektují míry nemoci bylo zkoumáno Spearmanovým korelaèním testem. Abychom pøede¹li mo¾ných chybám 2. typu, pramenících z vìt¹ího poètu takovýchto testù, byly výsledky pøepoèítány podle Holm-Bonferroniho korekce. \\
+	Mimo namìøená data byly také testovány subjektivní hodnocení GOS.SP.ASS.'98, kde byl pro ka¾dého mluvèího vzat prùmìr napøíè v¹emi 10ti hodnotiteli. 
+	
+	
+	\section{Výsledky}
+	% Proveïte analýzy pomocí vybraných testù a výsledky øádnì reportujte.
+	
+	Shapiro-Wilcoxon test ukázal, ¾e nulovou hypotézu o normalitì dat zamítáme u v¹ech mìøených velièin na hladinì významnosti $ \alpha=0.05 $ (EFN mean $ p =  0.02$, EFN SD $ p<0.001 $ a EFN trend $ p<0.001 $).\\
+	Bartlettùv test nezamítl nulovou hypotézu o rovnosti rozptylù skupin na hladinì významnosti $ \alpha=0.05 $ u velièiny EFN mean ($ p = 0.40 $) a zamítl pro EFN SD a EFN trend ($ p<0.001 $ pro oba pøípady). \\
+	Výsledky two-way ANOVA testù jsou v tabulce \ref{tab:2}, znaèící významnost vlivu skupiny na mìøenou velièinu a GOS.SP.ASS.'98 hodnocení. Jediný významný vliv má skupina \textit{typ onemocnìní} na velièiny EFN mean, EFN SD a subjektivní hodnocení (mean rates).
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{l|c|c|c|c|}
+		\multicolumn{1}{r}{}& \multicolumn{1}{r}{EFN mean} & \multicolumn{1}{r}{EFN SD} & \multicolumn{1}{r}{EFN trend} & \multicolumn{1}{r}{mean rates} \\ \cline{2-5}
+			typ onemocnìní & $ p< 0.001 $ & $ p< 0.001 $ & n. s. & $ p<0.001 $ \\ \cline{2-5}
+			pohlaví & n. s. & n. s. & n. s. & n. s. \\ \cline{2-5}
+			\makecell{typ onemocnìní \\ $ \times $ \\ pohlaví} & n. s. & n. s. & n. s. & n. s. \\ \cline{2-5}
+		\end{tabular}
+	\caption{Výsledky two-way ANOVA testù. Buòky znaèí významnosti vlivu skupin na mìøené velièiny a subjektivní hodnocení (mean rates). Zkratka n. s. vyjadøuje ¾e vliv není signifikantní.}
+	\label{tab:2}
+	\end{table}
+	\noindent \\
+	Výsledky post-hoc testù pomocí Bonferroniho metody jsou znázornìné na obrázku \ref{fig:boxplot} (testovány byly pouze signifikantní pøípady, viz tabulka \ref{tab:2}). 
+		
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{boxplot}
+		\caption{Výsledky post-hoc testù Bonferroniho metodou. Èervená èára znázoròuje medián, modrý obdélník mezikvartilový rozsah, èárkovaná èára rozsah dat, nepova¾ovaných za odlehlé a èervené køí¾ky jsou odlehlé hodnoty. ** znaèí $ p<0.01 $ a *** $ p<0.001 $. Nesignifikantní rozdíly nejsou znaèeny. }
+		\label{fig:boxplot}
+	\end{figure}
+	\noindent 
+	Pro Spearmanovu korelaci pøi $ \alpha = 0.05 $ byly signifikatní pouze hodnoty ve ¹kále UHRDS chorei a EFN SD pro HN skupinu, a dále hodnocení UHDRS motoriky a mean rates také pro HD skupinu ($ r = 0.45 $, $ p < 0.01 $ resp. $ r = 0.49 $, $ p < 0.1 $). Tyto výsledky byly získány po provedení korekce Holm-Bonferroniho metodou.
+	
+	
+	\section{Závìr}
+	% Zodpovìzte na v¹echny své navr¾ené otázky. Navrhnìte limitace práce, pokud
+	% jsou. Pøípadnì navrhnìte jak Va¹i analýzu zlep¹it, pokud je to mo¾né.
+	
+	Analýzou výsledkù two-way ANOVA, uvedených v tabulce \ref{tab:2}, zji¹»ujeme, ¾e typ onemocnìní (HC, PN, HN) má signifikantní vliv na mìøené hodnoty EFN mean a EFN SD. Také prùmìrné skóre 10ti nezávislých hodnotitelù (mean rates) je významnì ovlivnìno. Naopak ¾ádný velký dopad neregistrujeme u charakteristiky EFN trend, který se zdá být tímto nedotèena. \\
+	Dále nalézáme, ¾e pohlaví nemá ¾ádný signifikantní vliv na namìøené velièiny ani na subjektivní skóre, stejnì jako interakce mezi typem nemoci a pohlavím. \\
+	Výsledky post-hoc testù, znázornìných na obrázku \ref{fig:boxplot}, ukazují, ¾e namìøené hodnoty EFN mean a EFN trend mají signifikantní rozdíly pouze mezi skupinou HC a HN. Zatímco subjektivní hodnocení zajistilo signifikantní rozdíly mezi \textit{v¹emi} skupinami navzájem. \\
+	Namìøená hodnota, která reflektovala hodnocení podle standardizovaných ¹kál byla pouze EFN SD pro skupinu HD, která významnì korelovala s hodnotami podle ¹kály UHDRS chorei. Zároveò, subjektivní hodnocení odpovídalo pouze hodnotám UHDRS motoriky, té¾ pro HD skupinu. \\[0.5cm]
+	\noindent
+	Z na¹ich testù mù¾eme tedy prohlásit, ¾e hodnoty EFN mean a EFN SD fungují jako úèinné charakteristiky pro odli¹ení zdravých lidí od pacientù trpících Huntingtonovou chorobou. Jsou navíc robustní i vùèi pohlaví, jako nezajímavého parametru. Bohu¾el nebyly nalezeny ¾ádné signifikantní rozdíly pro skupinu pacientù s Parkinsonovou chorobou a tedy se tyto charakteristiky nejeví jako vhodné pro tento úèel. Velièina EFN trend nezaznamenala ¾ádný významný rozdíl mezi skupinami v na¹em experimentu. Pro jednorázové testy je tedy nevhodná, nicménì mù¾e hrát roli napøíklad v del¹ím èasovém úseku. Tato úloha by mìla být prozkoumána v dal¹ích studiích.\\
+	A¾ na výjimku hodnot EFN SD $ \times $ UHDRS chorei, ¾ádná namìøená velièina nereflektovala významnì hodnocení podle standardizovaných ¹kál. Vysvìtlení mù¾e být takové, ¾e hypernazalita pøedstavuje velice specifický prvek pøítomnosti nemoci, který nemusí být nutnì pokryt obecnými a standardizovanými hodnotícími postupy. O tomto faktu svìdèí to, ¾e ani subjektivní hodnocení hypernazality se nedostalo do shody se ¹kálami, a¾ na jednu výjimku (UHDRS motorika).
+	\\[0.5cm]
+	\noindent
+	Je zde nutné uvést, ¾e tato práce má své velké limitace a omezenou vìrohodnost, pøedev¹ím v pøedpokladech pou¾itých testù (two-way ANOVA), pøedpokládající data pocházející z normálního rozlo¾ení a rovnosti rozptylù zkoumaných skupin. U provedených testù tyto podmínky splòovaly jen nìkteré velièiny a tedy musíme k výsledkùm pøistupovat opatrnì a s vìdomím neúplné pøesnosti. Na¹tìstí bylo zji¹tìno ¾e ANOVA není tolik citlivá na rozumné  odchylky od normálního rozdìlení \cite{4}. \\
+	Na zpøesnìní a obhájení na¹ich výsledkù by bylo napøíklad mo¾né pou¾ít slo¾itìj¹í, neparametrické metody, více robustní a vhodné na na¹e pou¾itá data.
+	\\[0.5cm]
+	\noindent
+	Závìrem experimentu dodáváme, ¾e v oblasti automatického vyhodnocování hypernazality je potøeba dal¹ích rozsáhlých studií, jeliko¾ dosavadní metody mají stále hor¹í výsledky ne¾ subjektivní hodnocení. Je ale vidìt, ¾e v nìkterých úlohách jsou témìø na stejné úrovni, jako napøíklad pøi hodnocení pøítomnosti Huntingtonovy nemoci. Automatické a strojové vyhodnocení v¹ak pøiná¹í velké výhody pøi ¹etøení èasu, objektivitu a mo¾nost detailních analýz napø. prùbìhu nemoci a úèinnosti medikace. Algoritmické hodnocení hypernazality má tak ¹anci stát se jednou s u¾iteèných charakteristik urèených ke klinickému zhodnocení typu a stavu nemoci, alespoò v nìkterých konkrétních úlohách.
+ 	
+	\begin{thebibliography}{5}
+		\bibitem{1}
+		Theodoros DG, Murdoch BE, Thompson EC. Hypernasality in Parkinson Disease: A Perceptual and	Physiological. Journal of Medical Speech-Language Pathology, 1995; 3:73-84.
+		
+		\bibitem{2}
+		Kataoka R, Warren DW, Zajac DJ, Mayo R, Lutz RW. The relationship between spectral characteristics and percieved hypernasality in children. J Acoust Soc Am, 2001; 109:2181-2189.
+		
+		\bibitem{3}
+		Sell D, Harding A, Grunwell P. GOS.SP.ASS.'98: an assessment for speech disorders associated with cleft	palate and/or velopharyngeal dysfunction (revised). International Journal of Language \& Communication Disorders, 1999; 34:17-33.
+		
+		\bibitem{4}
+		Glass G V, Peckham P D, Sanders J R, Consequences of failure to meet assumptions underlying fixed effects analyses of variance and covariance, Rev. Educ. Res. 42, 1972, 237-288.
+
+	\end{thebibliography}
+\end{document}
